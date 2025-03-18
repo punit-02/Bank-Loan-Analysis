@@ -70,19 +70,35 @@ The goal is to extract insights, track key performance indicators (KPIs), and su
 - **Loan Purpose Breakdown (Bar Chart)** → To categorize loan purposes  
 - **Home Ownership Analysis (Tree Map)** → To assess the impact of home ownership  
 
+![Image](https://github.com/user-attachments/assets/07fdd90b-2a24-40bb-ab1c-41c5c2007bc7)
+
+
 ### **Dashboard 3: Detailed Loan View**  
 ✔ Grid View of Loan Data  
 ✔ Key Metrics at a Glance  
+
+![Image](https://github.com/user-attachments/assets/c24962f0-a1c5-4a95-a0c7-338f1c8a6c2d)
 
 ---
 
 ## 📈 Project Results & Insights  
 
-🔹 Most loan applications are received in **Q4**, indicating seasonal trends.  
-🔹 Loans with **longer terms** have a higher repayment rate.  
-🔹 **Debt-to-Income Ratio (DTI)** is a strong predictor of loan defaults.  
-🔹 **Homeowners** tend to take **higher-value loans** compared to renters.  
-
+  1.  High Good Loan Issuance:
+      86.2% of loans are classified as good, meaning most borrowers repay their loans effectively.
+  2. Bad Loan Rate & Financial Impact:
+     13.8% of loans are bad (likely defaults or charge-offs).
+     The bad loan total received ($37.3M) is significantly lower than the bad loan funded amount ($65.5M), indicating high losses.
+  3. Impact of Interest Rate & DTI on Loan Performance:
+     Loans with higher interest rates (e.g., 15.10% for current loans) tend to have a higher DTI (14.72%), possibly increasing risk.
+     Fully paid loans have the lowest interest rate (11.64%) and a moderate DTI (13.17%), suggesting lower-risk borrowers.
+  4. Trends in Loan Performance:
+     Most loans are fully paid, indicating strong borrower repayment behavior.
+     Charged-off loans have a relatively high DTI (14.80%), reinforcing that higher debt levels may contribute to defaults.
+  5. Monitor Loan Demand Spikes:
+     Since applications rise in Q4, adjust funding allocations accordingly.
+  6. Assess Loan Risk Based on Experience Level:
+     Borrowers with <1 year experience apply more but may pose higher risk.
+     Consider stricter eligibility or higher scrutiny for early-career applicants.
 ---
 
 ## 🚀 Technologies Used  
