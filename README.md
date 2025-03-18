@@ -58,7 +58,8 @@ The goal is to extract insights, track key performance indicators (KPIs), and su
 📊 **Visuals Used:**  
 - Card Visuals for KPIs  
 - Grid View for Loan Status
-- 
+  
+  ![Image](https://github.com/user-attachments/assets/530a60a1-e252-4c8c-8c8b-5af0cb483f26)
 
 ### **Dashboard 2: Loan Insights**  
 ✔ **Charts Used:**  
