@@ -4,6 +4,12 @@
 This project analyzes **bank loan data** using **Excel for preprocessing, MySQL for data storage & querying, and Power BI for visualization**.  
 The goal is to extract insights, track key performance indicators (KPIs), and support decision-making in the banking sector.  
 
+## 📌 Key Objectives  
+✅ **Track Loan KPIs:** Monitor **Total Applications, Funded Amount, and Received Amount** (MTD & MoM)  
+✅ **Evaluate Loan Risk:** Analyze **Debt-to-Income (DTI) ratio, Interest Rates, and Good vs. Bad Loans**  
+✅ **Visualize Trends:** Identify **seasonal patterns, regional disparities, and borrower profiles**  
+✅ **Improve Decision-Making:** Provide insights to optimize **lending strategies and financial risk assessment**
+
 ## ✅ Key Highlights  
 - 🔹 **Data Cleaning & Transformation using Excel**  
 - 🔹 **Loan Data Storage & Analysis using MySQL**  
