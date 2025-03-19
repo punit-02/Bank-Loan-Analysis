@@ -221,7 +221,6 @@ This project is open-source and licensed under the MIT License.
 
 ## 📩 Contact & Contributions
 🔹 If you find this project helpful, feel free to ⭐ the repo!
-## 📧 Contact
 
 ---
 
