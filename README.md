@@ -89,22 +89,100 @@ The goal is to extract insights, track key performance indicators (KPIs), and su
 
 ## 📈 Project Results & Insights  
 
-  1.  High Good Loan Issuance:
-      86.2% of loans are classified as good, meaning most borrowers repay their loans effectively.
-  2. Bad Loan Rate & Financial Impact:
-     13.8% of loans are bad (likely defaults or charge-offs).
-     The bad loan total received ($37.3M) is significantly lower than the bad loan funded amount ($65.5M), indicating high losses.
-  3. Impact of Interest Rate & DTI on Loan Performance:
-     Loans with higher interest rates (e.g., 15.10% for current loans) tend to have a higher DTI (14.72%), possibly increasing risk.
-     Fully paid loans have the lowest interest rate (11.64%) and a moderate DTI (13.17%), suggesting lower-risk borrowers.
-  4. Trends in Loan Performance:
-     Most loans are fully paid, indicating strong borrower repayment behavior.
-     Charged-off loans have a relatively high DTI (14.80%), reinforcing that higher debt levels may contribute to defaults.
-  5. Monitor Loan Demand Spikes:
-     Since applications rise in Q4, adjust funding allocations accordingly.
-  6. Assess Loan Risk Based on Experience Level:
-     Borrowers with <1 year experience apply more but may pose higher risk.
-     Consider stricter eligibility or higher scrutiny for early-career applicants.
+- **Total Loan Applications**: 38,576  
+- **Total Funded Amount**: $435.8M  
+- **Total Amount Received**: $473.1M  
+- **Month-to-Date (MTD) Growth**:
+  - Loan Applications: 4,300
+  - Funded Amount: $54M (+13%)
+  - Amount Received: $58.1M (+15.8%)
+
+---
+
+## 📌 Loan Performance Breakdown
+
+| Loan Type | Applications | Funded Amount | Amount Received |
+|-----------|-------------|---------------|----------------|
+| **Good Loans** | 33,243 | $370.2M | $435.8M |
+| **Bad Loans** | 5,333 | $65.5M | $37.3M |
+
+🔹 **Good Loans**: 86.2% of total loans  
+🔹 **Bad Loans**: 13.8% of total loans  
+
+---
+
+## 📌 Loan Status Distribution
+
+| Status | Applications | Funded Amount |
+|--------|-------------|---------------|
+| **Charged Off** | 5,333 | $65.53M |
+| **Current** | 1,098 | $18.87M |
+| **Fully Paid** | 32,145 | $351.36M |
+| **Total** | 38,576 | $435.77M |
+
+✅ **Fully Paid Loans** dominate the dataset, ensuring stability.  
+❌ **Charged Off Loans** make up a notable portion, indicating risk.
+
+---
+
+## 📌 Loan Funding Trends
+
+- **Highest Funding Months**: **November ($48M) & December ($58M)**
+- **Most Loan Applications**: **California, Texas, Florida**
+- **Loan Term Breakdown**:
+  - **36 months**: $273.04M (62.66%)
+  - **60 months**: $162.72M (37.34%)
+
+---
+
+## 📌 Borrower Profile Insights
+
+### **Employment Length vs Funding**
+| Employment Length | Funded Amount |
+|-------------------|--------------|
+| 10+ years | $116M |
+| 2 years | $45M |
+| <1 year | $44M |
+
+📌 **Longer employment tenure correlates with higher funding approvals.**
+
+### **Loan Purpose Breakdown**
+| Purpose | Funded Amount |
+|---------|--------------|
+| Debt Consolidation | $230M |
+| Credit Card | $30M |
+| Home Improvement | $30M |
+| Small Business | $20M |
+
+📌 **Debt Consolidation is the most common reason for loans.**
+
+### **Home Ownership Impact**
+| Ownership Type | Funded Amount |
+|---------------|--------------|
+| Mortgage | $219.33M |
+| Rent | $185.77M |
+
+📌 **Mortgage holders receive the highest loan amounts.**
+
+---
+
+## 📌 Interest Rates & Debt-to-Income (DTI)
+
+- **Average Interest Rate**: 12.0% (MTD: 12.4%, MOM: -3.5%)
+- **Average Debt-to-Income (DTI) Ratio**: 13.3% (MTD: 13.7%, MOM: -2.7%)
+
+📌 **Slight month-over-month (MOM) reduction in interest rates improves affordability.**
+
+---
+
+## 🔍 Key Takeaways
+
+✔ **Most loans (86.2%) are classified as "Good Loans," ensuring higher repayments.**  
+✔ **Debt consolidation is the top loan purpose, making up a significant portion of the funded amount.**  
+✔ **Long-term employment (10+ years) positively impacts loan funding.**  
+✔ **Interest rates have slightly decreased, making loans more affordable.**  
+✔ **Mortgage holders receive higher loan amounts compared to renters.**  
+
 ---
 
 ## 🚀 Technologies Used  
@@ -132,7 +210,7 @@ The goal is to extract insights, track key performance indicators (KPIs), and su
 Open powerbi/dashboard.pbix file.
 Connect to MySQL server and refresh the dataset.
 ### 3️⃣ **Excel Data Cleaning**
-Open loan_data.csv in Excel and ensure data is formatted correctly.
+Open financial_loan.csv in Excel and ensure data is formatted correctly.
 
 ## 📜 License
 This project is open-source and licensed under the MIT License.
@@ -143,3 +221,11 @@ This project is open-source and licensed under the MIT License.
 
 ## 📩 Contact & Contributions
 🔹 If you find this project helpful, feel free to ⭐ the repo!
+## 📧 Contact
+
+---
+
+🚀 **Developed & Analyzed by Punit**
+
+
+---
