@@ -168,10 +168,8 @@ The goal is to extract insights, track key performance indicators (KPIs), and su
 
 ## 📌 Interest Rates & Debt-to-Income (DTI)
 
-- **Average Interest Rate**: 12.0% (MTD: 12.4%, MOM: -3.5%)
-- **Average Debt-to-Income (DTI) Ratio**: 13.3% (MTD: 13.7%, MOM: -2.7%)
-
-📌 **Slight month-over-month (MOM) reduction in interest rates improves affordability.**
+- **Average Interest Rate**: 12.0% (MTD: 12.4%, MOM: 3.5%)
+- **Average Debt-to-Income (DTI) Ratio**: 13.3% (MTD: 13.7%, MOM: 2.7%)
 
 ---
 
